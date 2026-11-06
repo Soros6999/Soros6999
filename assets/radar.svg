@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" role="img" aria-label="Radar de lenguajes: C 6, C++ 6, Python 7, MicroPython 7">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.025"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+    .grid{fill:none;stroke:#1f3d66;stroke-width:1.5}
+    .axis{stroke:#1f3d66;stroke-width:1.5;stroke-dasharray:4 5}
+    .area{fill:#4aa3ff;stroke:#4aa3ff;stroke-width:3;stroke-linejoin:round;animation:breath 3s ease-in-out infinite}
+    @keyframes breath{0%,100%{fill-opacity:.18}50%{fill-opacity:.32}}
+    .dot{fill:#ff4757;animation:blink 1.6s ease-in-out infinite}
+    @keyframes blink{0%,100%{opacity:.6}50%{opacity:1}}
+    .lbl{fill:#e6f1ff;font-size:16px;font-weight:700}
+    .num{fill:#ff4757}
+  </style>
+
+  <rect width="720" height="560" rx="14" fill="#0b0f17"/>
+  <g transform="translate(30,0)">
+  <text x="30" y="40" class="mono" font-size="17" xml:space="preserve"><tspan fill="#ff4757">$</tspan><tspan fill="#c9d6e8"> skills --radar</tspan><tspan fill="#6c84a6">  # nivel 1-10</tspan></text>
+
+  <!-- rejilla: niveles 2,4,6,8,10 (centro 330,290 · radio 170) -->
+  <polygon class="grid" points="330,256 364,290 330,324 296,290"/>
+  <polygon class="grid" points="330,222 398,290 330,358 262,290"/>
+  <polygon class="grid" points="330,188 432,290 330,392 228,290"/>
+  <polygon class="grid" points="330,154 466,290 330,426 194,290"/>
+  <polygon class="grid" points="330,120 500,290 330,460 160,290" stroke="#2c5a92"/>
+  <line class="axis" x1="330" y1="120" x2="330" y2="460"/>
+  <line class="axis" x1="160" y1="290" x2="500" y2="290"/>
+
+  <!-- datos: C 6 · C++ 6 · Python 7 · MicroPython 7 -->
+  <polygon class="area" fill-opacity="0.22" points="330,188 432,290 330,409 211,290"/>
+  <g filter="url(#glow)">
+    <circle class="dot" cx="330" cy="188" r="6"/>
+    <circle class="dot" cx="432" cy="290" r="6" style="animation-delay:.4s"/>
+    <circle class="dot" cx="330" cy="409" r="6" style="animation-delay:.8s"/>
+    <circle class="dot" cx="211" cy="290" r="6" style="animation-delay:1.2s"/>
+  </g>
+
+  <!-- etiquetas -->
+  <g class="mono" xml:space="preserve">
+    <text x="330" y="104" text-anchor="middle" class="lbl">C <tspan class="num">· 6</tspan></text>
+    <text x="514" y="296" text-anchor="start" class="lbl">C++ <tspan class="num">· 6</tspan></text>
+    <text x="330" y="488" text-anchor="middle" class="lbl">Python <tspan class="num">· 7</tspan></text>
+    <text x="146" y="296" text-anchor="end" class="lbl">MicroPython <tspan class="num">· 7</tspan></text>
+    <text x="330" y="535" text-anchor="middle" font-size="13" fill="#6c84a6">status: learning · hardware: ESP32</text>
+  </g>
+
+  </g>
+  <rect width="720" height="560" rx="14" fill="url(#scan)"/>
+  <rect x="1" y="1" width="718" height="558" rx="13" fill="none" stroke="#1f3d66" stroke-width="2"/>
+</svg>
