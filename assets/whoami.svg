@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="470" viewBox="0 0 860 470" role="img" aria-label="Terminal con el perfil de Jonathan">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono','Liberation Mono',monospace;font-size:17px}
+    .u{fill:#ff4757}.p{fill:#4aa3ff}.t{fill:#c9d6e8}.k{fill:#4aa3ff}.v{fill:#e6f1ff}.dim{fill:#6c84a6}.ok{fill:#ff4757}
+    .l{animation:in .25s ease-out both}
+    @keyframes in{from{opacity:0}to{opacity:1}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+
+  <rect width="860" height="470" rx="12" fill="#0b0f17"/>
+  <!-- barra de titulo -->
+  <path d="M0 12 a12 12 0 0 1 12 -12 h836 a12 12 0 0 1 12 12 v26 h-860z" fill="#121b2a"/>
+  <circle cx="24" cy="19" r="6.5" fill="#ff4757"/>
+  <circle cx="46" cy="19" r="6.5" fill="#4aa3ff"/>
+  <circle cx="68" cy="19" r="6.5" fill="#2a3b55"/>
+  <text x="430" y="24" text-anchor="middle" class="mono dim" style="font-size:14px">soros6999@utp: ~ — bash</text>
+
+  <g class="mono" xml:space="preserve">
+    <text x="28" y="78" class="l" style="animation-delay:.2s"><tspan class="u">soros6999@utp</tspan><tspan class="t">:</tspan><tspan class="p">~</tspan><tspan class="t">$ whoami</tspan></text>
+    <text x="28" y="106" class="l v" style="animation-delay:.6s">jonathan</text>
+
+    <text x="28" y="146" class="l" style="animation-delay:1s"><tspan class="u">soros6999@utp</tspan><tspan class="t">:</tspan><tspan class="p">~</tspan><tspan class="t">$ cat perfil.yaml</tspan></text>
+    <text x="28" y="174" class="l" style="animation-delay:1.4s"><tspan class="k">carrera:     </tspan><tspan class="v">Ingeniería Electrónica</tspan></text>
+    <text x="28" y="202" class="l" style="animation-delay:1.6s"><tspan class="k">universidad: </tspan><tspan class="v">Universidad Tecnológica de Pereira</tspan></text>
+    <text x="28" y="230" class="l" style="animation-delay:1.8s"><tspan class="k">ciudad:      </tspan><tspan class="v">Pereira, Colombia</tspan></text>
+    <text x="28" y="258" class="l" style="animation-delay:2s"><tspan class="k">lenguajes:   </tspan><tspan class="v">C · C++ · Python · MicroPython</tspan></text>
+    <text x="28" y="286" class="l" style="animation-delay:2.2s"><tspan class="k">aprendiendo: </tspan><tspan class="v">Python · MicroPython</tspan></text>
+    <text x="28" y="314" class="l" style="animation-delay:2.4s"><tspan class="k">hardware:    </tspan><tspan class="v">ESP32 </tspan><tspan class="dim"># 1 año trabajando con él</tspan></text>
+
+    <text x="28" y="354" class="l" style="animation-delay:2.9s"><tspan class="u">soros6999@utp</tspan><tspan class="t">:</tspan><tspan class="p">~</tspan><tspan class="t">$ systemctl status jonathan</tspan></text>
+    <text x="28" y="382" class="l" style="animation-delay:3.3s"><tspan class="ok">●</tspan><tspan class="t"> jonathan.service - </tspan><tspan class="v">soldando ideas, compilando sueños</tspan></text>
+    <text x="28" y="410" class="l" style="animation-delay:3.5s"><tspan class="dim">     Active: </tspan><tspan class="ok">active (learning)</tspan></text>
+
+    <text x="28" y="448" class="l" style="animation-delay:4s"><tspan class="u">soros6999@utp</tspan><tspan class="t">:</tspan><tspan class="p">~</tspan><tspan class="t">$ </tspan></text>
+  </g>
+  <rect class="cur" x="208" y="433" width="10" height="20" fill="#ff4757"/>
+
+  <rect width="860" height="470" rx="12" fill="url(#scan)"/>
+  <rect x="1" y="1" width="858" height="468" rx="11" fill="none" stroke="#1f3d66" stroke-width="2"/>
+</svg>
