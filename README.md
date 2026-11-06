@@ -1,16 +1,20 @@
-## Hi there 👋
+# ¡Hola! Soy JONA 👋
 
-<!--
-**Soros6999/Soros6999** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+⚙️ Programador enfocado en sistemas y electrónica desde Colombia 🇨🇴
 
-Here are some ideas to get you started:
+- 🔭 Actualmente trabajo en: **[tu proyecto]**
+- 🌱 Estoy aprendiendo: **[lo que estés aprendiendo]**
+- 🔌 Me gusta programar microcontroladores con MicroPython
+- 📫 Contáctame: [tu correo o LinkedIn]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Lenguajes
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=for-the-badge&logo=micropython&logoColor=white)
+
+## 📊 Estadísticas
+
+![Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight)
+![Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=tokyonight)
