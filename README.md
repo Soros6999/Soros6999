@@ -34,8 +34,8 @@
 ## `$ git log --stats`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soros6999&show_icons=true&theme=tokyonight&hide_border=true&title_color=4aa3ff&icon_color=ff4757" height="165" alt="Estadísticas" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soros6999&layout=compact&theme=tokyonight&hide_border=true&title_color=4aa3ff" height="165" alt="Lenguajes más usados" />
+  <img src="assets/stats.svg" height="165" alt="Estadísticas" />
+  <img src="assets/top-langs.svg" height="165" alt="Lenguajes más usados" />
 </div>
 
 ## `$ connect --socials`
